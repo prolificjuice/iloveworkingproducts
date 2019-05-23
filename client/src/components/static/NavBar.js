@@ -6,11 +6,10 @@ import './navbar.css'
 
 class NavBar extends React.Component{
    render(){
-     var bikerPath = './biker.png';
      return(
         <div className="row justify-content-end">
             <nav className="navbar navbar-expand-lg" id="nav3">
-            <div class="container-fluid">
+            <div className="container-fluid">
             <button className="navbar-toggler hidden-sm-up ml-auto" type="button" data-toggle="collapse" data-target="#collapsingNavbar"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 ☰
@@ -24,8 +23,8 @@ class NavBar extends React.Component{
                         <Link to="/weather"><span className="nav-link text"> WEATHER </span></Link>
                     </li>
                     <li className="nav-item dropdown">
-                        <Link className="nav-link dropdown-toggle text" role="button" data-toggle="dropdown"> MY PROFILE 
-                            <span class="caret"/>
+                        <Link to="" className="nav-link dropdown-toggle text" role="button" data-toggle="dropdown"> MY PROFILE
+                            <span className="caret"/>
                         </Link>
                         <ul className="dropdown-menu text-right">
                             <li><Link to="/trips"><span className="nav-link text_small"> PAST TRIPS </span></Link></li>

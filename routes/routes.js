@@ -6,12 +6,6 @@ const apiBikeParkingController = require('../controllers/apiBikeParkingControlle
 
 const router = express.Router();
 
-  // Display homepage
-router.use('/', (req, res) => {
-  res.send("im in");
-});
-
-
   // Get bike parking (API)
 router.get('/getParking/:lat/:lng', apiBikeParkingController.findBikeParkingByLocation);
 

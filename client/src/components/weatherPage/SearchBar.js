@@ -5,7 +5,6 @@ import PlacesAutocomplete, {
  getLatLng,
 } from 'react-places-autocomplete';
 import { FetchWeather } from '../../actions';
-import { STATES } from 'mongoose';
 
 
 class SearchBar extends React.Component {

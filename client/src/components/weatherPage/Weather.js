@@ -5,7 +5,6 @@ import { FetchWeather } from '../../actions';
 
 class WeatherSidebar extends React.Component {
   render(){
-    var currentWeather = this.props.currentWeather.currently;
     if(this.props.currentWeather.summary){
       return(
           <div className="row ">

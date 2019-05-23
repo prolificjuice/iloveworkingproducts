@@ -1,7 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import Titles from '../components/static/Titles';
-import UserIcon from '../components/static/UserIcon';
 import NavBar from '../components/static/NavBar';
 import BackgroundImg from '../backgrounds/background.png'
 import '../components/static/Titles.css';

@@ -14,6 +14,7 @@ class GoogleAuth extends React.Component {
         cookiepolicy: 'single host origin'
       })
       .then(()=>{
+        console.log(window.gapi.auth2);
         this.auth = window.gapi.auth2.getAuthInstance();
         this.setState({ isSignedIn: this.auth.isSignedIn.get() });
         this.auth.isSignedIn.listen(this.onAuthChange);

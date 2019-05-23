@@ -4,6 +4,7 @@ import DirectionsPage from './routes/directionsPage';
 import WeatherPage from './routes/weatherPage';
 import HomePage from './routes/homePage';
 import TripsPage from './routes/tripsPage';
+import User from './routes/userProfile';
 import './App.css'
 import GoogleAuth from './components/loginPage/GoogleAuth';
 import { connect } from 'react-redux';
@@ -28,6 +29,7 @@ class App extends React.Component {
             <Route path="/weather" exact component={WeatherPage} />
             <Route path="/directions" exact component={DirectionsPage} />
             <Route path="/trips" exact component={TripsPage} />
+            <Route path="/user" exact component={User} />
       </div>
       </div>
       </BrowserRouter>
