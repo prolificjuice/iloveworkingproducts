@@ -1,0 +1,13 @@
+input[type="text"] {
+    background: #FFFFFF;
+    border: 1px solid #394964;
+    border-radius: 90px;
+    padding-bottom: 3px;
+    color: #2B303B;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    margin-left: ($spacer * .25) !important;
+    font-family: 'Arial';
+    font-size: 18px;
+}

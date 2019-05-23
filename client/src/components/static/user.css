@@ -1,0 +1,20 @@
+.user-icon {
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 5px 5px 6px rgba(0,0,0,0.16);
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.username {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 120%;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #394969;
+}
+
+.user-container {
+    text-align: center;
+}

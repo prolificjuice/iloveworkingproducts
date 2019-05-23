@@ -1,0 +1,23 @@
+.titleWHERE {
+  font-family: 'League Spartan', sans-serif;
+  letter-spacing: 2px;
+  color: #394969;
+  text-shadow: 5px 5px 6px rgba(0,0,0,0.16);
+}
+.titleTO {
+  font-family: 'League Spartan', sans-serif;
+  letter-spacing: 2px;
+  color: #394969;
+  vertical-align: top;
+  text-shadow: 5px 5px 6px rgba(0,0,0,0.16);
+}
+
+.titleBIKE {
+  font-family: 'Six Caps', sans-serif;
+  font-weight: 400;
+  letter-spacing: 4px;
+  color: #5B973B;
+  margin-top: -105px;
+  margin-left: 60px;
+  text-shadow: 5px 5px 6px rgba(0,0,0,0.16);
+}
